@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="4.0" type="plugin" group="system">
+    <name>abinash plugin</name>
+    <author>Abinash Kumar</author>
+    <creationDate>15-04-2022</creationDate>
+    <authorEmail>abinashkumar185@gmail.com</authorEmail>
+    <authorUrl>https://github.com/abinash185</authorUrl>
+    <version>1.0.1</version>
+    <description>A  Plugin designed for GSoC by Abinash Kumar</description>
+    <files>
+        <filename plugin="headingreplace">task.php</filename>
+        <filename plugin="headingreplace">task.html</filename>
+
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+            <field name="heading_text" type="text" description="Enter the heading title" label="Heading text"/>
+            </fieldset>
+        </fields>
+    </config>
+</extension>
